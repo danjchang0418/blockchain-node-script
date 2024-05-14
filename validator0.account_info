@@ -1,0 +1,11 @@
+
+- address: allo17pcw04xq8uqcxlhpfzsxkf07l7t5hr44efpphj
+  name: validator0
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"AxU2/IMDQrdkRoxtS9VvCEtC7WOlZRAYh4BFFNaQmP++"}'
+  type: local
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+index deer spare ghost army village put bargain frame shrug monitor admit garbage fan cement menu gesture cover hybrid will believe lemon silly omit
