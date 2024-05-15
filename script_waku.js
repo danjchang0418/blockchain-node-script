@@ -174,7 +174,7 @@ const commands2 = [
 	`cd nwaku-compose && sudo -S <<< "${connSettings.password}" openssl ecparam -genkey -name secp256k1 -out private_key.pem`,
 	`cd nwaku-compose && sudo -S <<< "${connSettings.password}" echo -e "\nNODEKEY=$(sudo -S <<< "${connSettings.password}" openssl ec -in private_key.pem -outform DER | tail -c +8 | head -c 32| xxd -p -c 32)" >> .env`,
 	`cd nwaku-compose && sudo -S <<< "${connSettings.password}" ./register_rln.sh`,
-	// `cd nwaku-compose && sudo -S <<< "${connSettings.password}" docker compose up -d`,
+	`cd nwaku-compose && sudo -S <<< "${connSettings.password}" docker compose up -d`,
 	// `cd nwaku-compose && sudo -S <<< "${connSettings.password}" docker compose logs -f nwaku`
 ];
 // onchain Remaining
